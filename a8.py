@@ -1,7 +1,12 @@
-from neural import *
+from neural import NeuralNet
 
 print("<<<<<<<<<<<<<< XOR >>>>>>>>>>>>>>\n")
 
-
+xor_data = [
+    ([0,0],0),
+    ([1,0],1),
+    ([0,1],1),
+    ([1,1],0),
+]
 
 
